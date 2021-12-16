@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.iframe {
+	width: 100%;
+	height: 100vh;
+	outline: none;
+	border: none;
+	position: relative;
+}
+
+.wish_center_div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wish_center_div p {
+	font-size: 1.5rem;
+	font-family: "Raleway", sans-serif;
+	line-height: 3rem;
+	text-align: center;
+}
+
+.wish_center_div p span {
+	display: block;
+}
+
+.wish_emoji {
+	font-size: 3rem;
+	line-height: 5rem;
+	margin-top: 20px;
+}

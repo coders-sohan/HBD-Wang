@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px){
+    .click_here{
+        line-height: 4rem;
+    }
+
+    .click_here span{
+        margin: 0 !important;
+    }
+
+    .hbd_center_div p{
+        font-size: 2.3rem;
+    }
+
+    .wish_center_div p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .click_here{
+        font-size: 20px;
+        line-height: 3rem;
+    }
+
+    .click_here span{
+        margin: 0 !important;
+    }
+
+    .hbd_center_div p{
+        font-weight: 600;
+        font-size: 1.12rem;
+        line-height: 2.5rem;
+    }
+
+    .hbd_link{
+        font-size: 1.5rem;
+    }
+
+    .wish_center_div p{
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .wish_emoji{
+        font-size: 1.5rem;
+        line-height: normal;
+        margin-top: 5px;
+    }
+}
